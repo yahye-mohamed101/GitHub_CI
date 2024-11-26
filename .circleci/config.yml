@@ -8,10 +8,10 @@ jobs:
     docker:
     - image: cypress/base:latest
       steps:
-        - checkout
-          - run:
-              name: Install dependencies
-              command: npm install
+      - checkout
+      - run:
+          name: Install dependencies
+           command: npm install
           - run:
               name: Build the app
               command: npm run build
