@@ -22,14 +22,14 @@
     "node": ">=16 <21"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0",
+    "concurrently": "^8.2.2",
     "cypress": "^13.13.0",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
-    "vitest": "^2.0.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vitest": "^2.0.3"
   }
 }
