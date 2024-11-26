@@ -7,7 +7,7 @@ jobs:
   start-server:
     docker:
     - image: cypress/base:latest
-      steps:
+    steps:
       - checkout
       - run:
           name: Install dependencies
